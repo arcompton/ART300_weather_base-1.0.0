@@ -48,6 +48,26 @@ h1{
     background-color: #00072D;
     border: 1vw solid #00072D; 
     border-radius: 1vw; 
+    margin-bottom: 5vh;
+}
+.sunrise_sunset{
+    color: white;
+    font-size: 2.5vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #00072D;
+    border: 1vw solid #00072D; 
+    border-radius: 1vw; 
+    margin-bottom: 5vh;
+}
+.current_hourly_forecast{
+    color: white;
+    font-size: 2.5vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #00072D;
+    border: 1vw solid #00072D; 
+    border-radius: 1vw; 
 }
 .top_midsection{
     display: grid;
@@ -55,7 +75,7 @@ h1{
 }
 .current_percipitation{
     color: white;
-    font-size: 2vh;
+    font-size: 5vh;
 }
 .degree_symbol:not(:empty)::after {
     content: "°"
@@ -81,67 +101,180 @@ h1{
     background-image: url("/img/01d@2x.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    width: 3vw;
-    height: 3vh;
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
 }
 .icon_02d{
     background-image: url("/img/02d@2x.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    width: 3vw;
-    height: 3vh;
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
 }
 .icon_03d{
     background-image: url("/img/03d@2x.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    width: 3vw;
-    height: 3vh;
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
 }
 .icon_04d{
     background-image: url("/img/04d@2x.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    width: 3vw;
-    height: 3vh;
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
 }
-.icon_05d{
-    background-image: url("/img/05d@2x.png");
+.icon_09d{
+    background-image: url("/img/09d@2x.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    width: 3vw;
-    height: 3vh;
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
 }
-.icon_06d{
-    background-image: url("/img/06d@2x.png");
+.icon_010d{
+    background-image: url("/img/010d@2x.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    width: 3vw;
-    height: 3vh;
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
 }
-.icon_07d{
-    background-image: url("/img/07d@2x.png");
+.icon_011d{
+    background-image: url("/img/11d@2x.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    width: 3vw;
-    height: 3vh;
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
 }
-.icon_08d{
-    background-image: url("/img/08d@2x.png");
+.icon_13d{
+    background-image: url("/img/13d@2x.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    width: 3vw;
-    height: 3vh;
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
+}
+.icon_50d{
+    background-image: url("/img/50d@2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
+}
+.icon_01n{
+    background-image: url("/img/01n@2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
+}
+.icon_02n{
+    background-image: url("/img/02n@2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
+}
+.icon_03n{
+    background-image: url("/img/03n@2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
+}
+.icon_04n{
+    background-image: url("/img/04n@2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
+}
+.icon_09n{
+    background-image: url("/img/09n@2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
+}
+.icon_010n{
+    background-image: url("/img/010n@2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
+}
+.icon_011n{
+    background-image: url("/img/11n@2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
+}
+.icon_13n{
+    background-image: url("/img/13n@2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
+}
+.icon_50n{
+    background-image: url("/img/50n@2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10vw;
+    height: 10vh;
+    margin: auto;
 }
 
+.forecast_section{
+    margin-left: 2.5vw; 
+    margin-right: 2.5vw; 
+    display: grid; 
+    grid-template-columns: 20% 20% 20% 20% 20%; 
+}
 
-
+.forecast_day {
+    width: 16vw; 
+    margin-left: 1vw; 
+    margin-right: 1vw; 
+    border: 0.5vw solid white; 
+    border-radius: 10%; 
+    color: white;
+    text-align: center;
+}
+.forecast_heading {
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.forecast_high_low{
+    display: grid;
+    grid-template-rows: 60% 60%;
+}
+.forecast_high {
+    font-size: 6vh;
+}
+.forecast_low {
+    font-size: 2.5vh;
+}
+.forecast_percupitation{
+    margin: auto;
+    font-size: 2vh;
+}
 
